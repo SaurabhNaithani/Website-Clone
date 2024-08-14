@@ -1,0 +1,9 @@
+@media  screen and (max-width: 900px) {
+    
+}
+
+
+@media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+  

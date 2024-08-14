@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../Flipkart Clone/images/logo/logo.svg" alt="Flipkart">
+            </div>
+
+            <div class="search">
+                <div class="searchIcon">
+                    <img src="../Flipkart Clone/images/logo/search-interface-symbol.png">
+                </div>
+                <input type="search" name="search-bar" id="searchInput"
+                    placeholder="Search for Products, Brands and More">
+            </div>
+
+            <div class="tabs">
+                <div class="login">
+                    <img src="../Flipkart Clone/images/logo/profile.svg">
+                    <p class="textFont">Login</p> <span class="arrow"></span>
+                    <img src="../Flipkart Clone/images/logo/dropdown.svg">
+                </div>
+                <div class="cart">
+                    <img src="../Flipkart Clone/images/logo/cart.svg">
+                    <p class="textFont"> Cart </p>
+                </div>
+                <div class="merchant">
+                    <img src="../Flipkart Clone/images/logo/Store.svg">
+                    <p class="textFont"> Become a Seller </p>
+                </div>
+                <div class="dropdown">
+                    <img src="../Flipkart Clone/images/logo/3verticalDots.svg" alt="More">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+
+        <div class="categories">
+            <div class="item" id="Grocery">
+                <img src="../Flipkart Clone/images/categories_img/grocery.webp" alt="Grocery">
+                <p class="textFont2">Grocery</p>
+            </div>
+            <div class="item" id="Mobiles">
+                <img src="../Flipkart Clone/images/categories_img/Mobiles.webp" alt="Mobiles">
+                <p class="textFont2">Mobiles</p>
+            </div>
+            <div class="item" id="Fashion">
+                <img src="../Flipkart Clone/images/categories_img/Fashion.webp" alt="Fashion">
+                <p class="textFont2">Fashion <img src="../Flipkart Clone/images/logo/dropdown.svg"></p>
+
+            </div>
+            <div class="item" id="Electronics">
+                <img src="../Flipkart Clone/images/categories_img/Electronics.webp" alt="Electronics">
+                <p class="textFont2">Electronics<img src="../Flipkart Clone/images/logo/dropdown.svg"></p>
+            </div>
+            <div class="item" id="Home&Furniture">
+                <img src="../Flipkart Clone/images/categories_img/Furniture.webp" alt="Home & Furniture">
+                <p class="textFont2">Home & Furniture<img src="../Flipkart Clone/images/logo/dropdown.svg"></p>
+            </div>
+            <div class="item" id="Appliances">
+                <img src="../Flipkart Clone/images/categories_img/Appliances.webp" alt="Appliances">
+                <p class="textFont2">Appliances</p>
+            </div>
+            <div class="item" id="travel">
+                <img src="../Flipkart Clone/images/categories_img/Travel.webp" alt="Travel">
+                <p class="textFont2">Travel</p>
+            </div>
+            <div class="item" id="Beauty&Toys">
+                <img src="../Flipkart Clone/images/categories_img/Toys.webp" alt="Beauty & Toys">
+                <p class="textFont2">Beauty, Toys & More<img src="../Flipkart Clone/images/logo/dropdown.svg"></p>
+            </div>
+            <div class="item" id="Two-wheelers">
+                <img src="../Flipkart Clone/images/categories_img/twowheeler.webp" alt="Two-wheelers">
+                <p class="textFont2">Two Wheelers<img src="../Flipkart Clone/images/logo/dropdown.svg"></p>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="../Flipkart Clone/images/slider_img/img1.webp" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../Flipkart Clone/images/slider_img/img2.webp" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../Flipkart Clone/images/slider_img/img3.webp" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../Flipkart Clone/images/slider_img/img4.webp" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="../Flipkart Clone/images/slider_img/img5.webp" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)"><img src="../Flipkart Clone/images/Slider_arrow_buttons/left.png" alt="" srcset=""></a>
+            <a class="next" onclick="plusSlides(1)"><img src="../Flipkart Clone/images/Slider_arrow_buttons/next.png" alt="" srcset=""></a>
+
+            <div class="dotButton">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="electronics">
+                <p><b> Best of Electronics </b></p>
+                <button class="exploreMore">
+                    <img class="exploreImg" src="../Flipkart Clone/images/Slider_arrow_buttons/explore.png">
+                </button>
+            </div>
+            <div class="itemContainer">
+
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1491022124996-1e437922bd61?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Top Mirrorless Cameras</p1>
+                    <p2>Shop Now!</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/866925484/photo/compact-printer-isolated.jpg?s=1024x1024&w=is&k=20&c=WqxOHx4euqoDV5yPIuRN7xBJ3281I-Uj3Fb4JBn64ok="
+                        alt="" srcset="">
+                    <p1>Printers</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1585995603413-eb35b5f4a50b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Premium Powerbanks</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1508380702597-707c1b00695c?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Best of Shavers</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/495078118/photo/black-external-hard-drive.jpg?s=1024x1024&w=is&k=20&c=5RzaRyKFzUI8AoM0XCr7WcJVL3KqnEc3I5NIxAD39NI="
+                        alt="" srcset="">
+                    <p1>Portable HardDrives</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/184993228/photo/flat-screen-lcd-television.jpg?s=1024x1024&w=is&k=20&c=oqCsyp5xdbtu740Zw8SgaY5rDGmqW0Jz2D6AoVvsTZk="
+                        alt="" srcset="">
+                    <p1>Monitors</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/184993228/photo/flat-screen-lcd-television.jpg?s=1024x1024&w=is&k=20&c=oqCsyp5xdbtu740Zw8SgaY5rDGmqW0Jz2D6AoVvsTZk="
+                        alt="" srcset="">
+                    <p1>Monitors</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/184993228/photo/flat-screen-lcd-television.jpg?s=1024x1024&w=is&k=20&c=oqCsyp5xdbtu740Zw8SgaY5rDGmqW0Jz2D6AoVvsTZk="
+                        alt="" srcset="">
+                    <p1>Monitors</p1>
+                    <p2>From ₹3999</p2>
+                </div>
+                <div class="itemBtn">
+                    <button class="itemBtn1" id="moreElectronicItems"><img src="../Flipkart Clone/images/Slider_arrow_buttons/next.png"
+                            alt="" srcset=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="electronics">
+                <p><b> Best of Electronics </b></p>
+                <button class="exploreMore">
+                    <img class="exploreImg" src="../Flipkart Clone/images/Slider_arrow_buttons/explore.png">
+                </button>
+            </div>
+            <div class="itemContainer">
+
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1491022124996-1e437922bd61?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Top Mirrorless Cameras</p1>
+                    <p2>Shop Now!</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/866925484/photo/compact-printer-isolated.jpg?s=1024x1024&w=is&k=20&c=WqxOHx4euqoDV5yPIuRN7xBJ3281I-Uj3Fb4JBn64ok="
+                        alt="" srcset="">
+                    <p1>Printers</p1>
+                    <p2>From ₹29,999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1585995603413-eb35b5f4a50b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Premium Powerbanks</p1>
+                    <p2>From ₹1299</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://images.unsplash.com/photo-1508380702597-707c1b00695c?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="" srcset="">
+                    <p1>Best of Shavers</p1>
+                    <p2>From ₹999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/495078118/photo/black-external-hard-drive.jpg?s=1024x1024&w=is&k=20&c=5RzaRyKFzUI8AoM0XCr7WcJVL3KqnEc3I5NIxAD39NI="
+                        alt="" srcset="">
+                    <p1>Portable HardDrives</p1>
+                    <p2>From ₹6999</p2>
+                </div>
+                <div class="cardItem">
+                    <img src="https://media.istockphoto.com/id/184993228/photo/flat-screen-lcd-television.jpg?s=1024x1024&w=is&k=20&c=oqCsyp5xdbtu740Zw8SgaY5rDGmqW0Jz2D6AoVvsTZk="
+                        alt="" srcset="">
+                    <p1>Monitors</p1>
+                    <p2>From ₹9999</p2>
+                </div>
+                <div class="itemBtn">
+                    <button class="itemBtn1" id="moreElectronicItems"><img src="../Flipkart Clone/images/Slider_arrow_buttons/next.png"
+                            alt="" srcset=""></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+
+</html>
